@@ -1,7 +1,7 @@
 # ₿ Bitcoin Price Tracker: Serverless Data Ingestion Pipeline
 
 ## Project Overview
-This project establishes a robust, fully automated, and serverless data pipeline on Amazon Web Services (AWS) to track and ingest daily cryptocurrency data (specifically Bitcoin) from a public API.
+This project establishes a fully automated, and serverless data pipeline on AWS to track and ingest daily cryptocurrency data (specifically Bitcoin price data from several countries) from a public API.
 
 It serves as a foundation for a complete **Extract, Transform, Load (ETL)** process, demonstrating expertise in cloud infrastructure setup, automated scheduling, data ingestion, and scalable data storage.
 
