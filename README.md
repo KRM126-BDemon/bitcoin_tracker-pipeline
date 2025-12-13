@@ -5,7 +5,7 @@ This project establishes a fully automated, and serverless data pipeline on AWS 
 
 It serves as a foundation for a complete **Extract, Transform, Load (ETL)** process, demonstrating expertise in cloud infrastructure setup, automated scheduling, data ingestion, and scalable data storage.
 
-Being a new student of cloud tech, I used Google Gemini to help me understand the architecture process provide JSON code, and troubleshoot as needed.
+Being a new student of cloud tech, I used Google Gemini to help me understand the architecture process, provide JSON code, and troubleshoot as needed.
 
 ---
 
