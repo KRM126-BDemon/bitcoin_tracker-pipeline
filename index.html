@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bitcoin Global Adoption Tracker</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.1/dist/chartjs-adapter-moment.min.js"></script>
+
+    <meta property="og:title" content="Bitcoin Global Premium Tracker">
+    <meta property="og:description"
+        content="A live dashboard tracking BTC price premiums in unstable economies. Built with AWS & Chart.js.">
+    <meta property="og:image" content="https://d1geh7kjzinc05.cloudfront.net/preview.png">
+
+</head>
+
+<body>
+    <h1>Bitcoin Global Adoption Tracker</h1>
+    <p>Track Bitcoin prices and premiums across countries with currency instability.</p>
+
+    <div id="prices">
+        <p>Loading Bitcoin prices...</p>
+    </div>
+
+    <div class="chart-container">
+        <h2>Bitcoin Price History (USD)</h2>
+        <canvas id="priceChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Premium Trends by Country</h2>
+        <canvas id="premiumChart"></canvas>
+    </div>
+
+    <div class="analysis-box">
+        <h3>Understanding the Data</h3>
+        <p>A <strong>Bitcoin Premium</strong> occurs when the local price of Bitcoin is higher than the global market
+            price. This often happens in countries with currency instability because:</p>
+        <ul>
+            <li><strong>Capital Controls:</strong> Restrictions on moving money out of the country create a "desperation
+                demand" for Bitcoin as an escape hatch.</li>
+            <li><strong>Arbitrage Friction:</strong> It is difficult for traders to bring "new" Bitcoin into the country
+                to lower the price, keeping premiums high.</li>
+            <li><strong>Shadow Rates:</strong> Bitcoin prices often reflect the "true" street value of a currency,
+                rather than the official government exchange rate.</li>
+        </ul>
+        <p class="insight-note"><em>Note: A higher premium doesn't always mean more people are using Bitcoin, but it
+                often indicates how difficult it is for citizens to access stable value.</em></p>
+        <p class="insight-note">
+            <strong>💡 Market Tip:</strong> You might notice small spikes when the global price of Bitcoin moves
+            rapidly. Because local markets in emerging economies have less "liquidity" (available cash/trading volume),
+            they often take a few hours to catch up to global price swings, causing the premium to fluctuate
+            temporarily.
+        </p>
+    </div>
+
+    <div class="takeaway-container">
+        <div class="takeaway-box up">
+            <h4>📈 Spikes Upward</h4>
+            <p>Indicates <strong>sudden demand</strong>. Often follows news of currency devaluation or new government
+                restrictions on foreign currency (USD) access.</p>
+        </div>
+        <div class="takeaway-box down">
+            <h4>📉 Spikes Downward</h4>
+            <p>Indicates <strong>market cooling</strong>. Usually happens when the government stabilizes the currency or
+                new trading routes allow supply to catch up with demand.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
