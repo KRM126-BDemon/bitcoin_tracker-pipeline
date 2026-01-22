@@ -8,7 +8,7 @@ This project establishes a fully automated, and serverless data pipeline on AWS 
 A tutorial/portfolio project, a web application that tracks Bitcoin prices and premium trends across multiple countries to analyze adoption patterns in regions with currency instability.
 >>>>>>> e79441c (Update project with all files and documentation)
 
-**Live Demo:** [https://btc-global-prices-keith.s3.us-west-1.amazonaws.com/index.html]
+**Live Demo:** [https://d1geh7kjzinc05.cloudfront.net/]
 
 Being a new student of cloud tech, I used Google Gemini to help me understand the architecture process, provide JSON code, and troubleshoot as needed.
 
